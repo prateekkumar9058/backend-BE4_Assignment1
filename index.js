@@ -1,5 +1,6 @@
 const express = require("express");
 const { initializeDatabase } = require("./db/db.connect");
+const cors = require("cors")
 const Book = require("./models/book.model");
 
 const app = express();
